@@ -5,3 +5,4 @@ This example creates a jQuery object containing all of the list items from the p
 # Components that make the app run
 
 * The selector creates a jQuery object containing all li elelemts. The .each() method calls an anonymous function for each of the list items in the matched set.
+* The this keyword refers to the current element node in the loop. It is used to access the value of the current element's id attribute, which is stored in a variable called ids.
