@@ -7,3 +7,10 @@ This example creates a jQuery object containing all of the list items from the p
 * The selector creates a jQuery object containing all li elelemts. The .each() method calls an anonymous function for each of the list items in the matched set.
 * The this keyword refers to the current element node in the loop. It is used to access the value of the current element's id attribute, which is stored in a variable called ids.
 * $(this) is used to create a jQuery object that contains the current element in the loop. Having the element in a jQuery object enables you to use jQuery methods on that element. In this case the .append() method is used to add a new span element to the current list item.
+
+## How to run the app?
+* In your terminal:
+```
+git clone https://github.com/bostonhuman/javascript-.each-method
+```
+* Open `each.html` to run the app.
